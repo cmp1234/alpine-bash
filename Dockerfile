@@ -4,10 +4,10 @@ FROM cmp1234/alpine-base:3.6
 ENV _BASH_GPG_KEY 7C0135FB088AAF6C66C650B9BB5869F064EA74AB
 
 # https://ftp.gnu.org/gnu/bash/?C=M;O=D
-ENV _BASH_VERSION 4.3
-ENV _BASH_PATCH_LEVEL 30
-# https://ftp.gnu.org/gnu/bash/bash-4.3-patches/?C=M;O=D
-ENV _BASH_LATEST_PATCH 48
+ENV _BASH_VERSION 4.4
+ENV _BASH_PATCH_LEVEL 0
+# https://ftp.gnu.org/gnu/bash/bash-4.4-patches/?C=M;O=D
+ENV _BASH_LATEST_PATCH 12
 # prefixed with "_" since "$BASH..." have meaning in Bash parlance
 
 RUN set -ex; \
