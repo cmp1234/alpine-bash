@@ -1,4 +1,4 @@
-FROM cmp1234/alpine-base:3.6
+FROM cmp1234/alpine-base:latest
 
 # gpg: key 64EA74AB: public key "Chet Ramey <chet@cwru.edu>" imported
 ENV _BASH_GPG_KEY 7C0135FB088AAF6C66C650B9BB5869F064EA74AB
